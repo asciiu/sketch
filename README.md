@@ -13,7 +13,7 @@ Inspired by [This Uplabs Post](https://www.uplabs.com/posts/freebies)
 * Some working knowledge of Flutter and Dart
 
 ## ‼️ Disclaimer
-It's a working in progress don't expect much!
+Still learning so don't expect much!
 
 ## Running
 * flutter run -d chrome
