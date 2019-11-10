@@ -1,25 +1,22 @@
-# 😁 LoginPage [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Flutter web Signup [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A very simple Login Page made with Flutter Web.
+A very simple web signup page using Flutter.
 
 Inspired by [This Uplabs Post](https://www.uplabs.com/posts/freebies)
 
-## 📸 ScreenShots
+## ScreenShots
 
 <img src="assets/1.png">
 
-## ✨ Requirements
-* Any Operating System (ie. MacOS X, Linux, Windows)
-* Any IDE with Flutter WEB installed (ie. IntelliJ, Android Studio, VSCode etc)
-* A little knowledge of Dart and Flutter
-* A brain to think 🤓🤓
+## Requirements
+* Flutter 1.10
+* Some working knowledge of Flutter and Dart
 
 ## ‼️ Disclaimer
+It's a working in progress don't expect much!
 
-This is just a simple project i made as my **second Flutter web project** for practice sake, took only a few hours so its not **perfect**
-
-## 🤓 Author(s)
-**Olusegun Festus Babajide**
+## Running
+* flutter run -d chrome
 
 ## Getting Started
 For help getting started with Flutter, view the [online documentation](https://flutter.dev/web).
