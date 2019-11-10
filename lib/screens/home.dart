@@ -56,23 +56,11 @@ class Home extends StatelessWidget {
                           Container(
                             padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
                             child: Text(
-                              "It should only take a couple of seconds",
+                              "...it should only take a few seconds.",
                               style: TextStyle(
                                 fontSize: 18.0,
                               ),
                               textAlign: TextAlign.center,
-                            ),
-                          ),
-                          SizedBox(
-                            height: 50.0,
-                          ),
-                          Container(
-                            child: CircleAvatar(
-                              backgroundColor: Colors.black87,
-                              child: Text(
-                                ">",
-                                style: TextStyle(color: Colors.yellow),
-                              ),
                             ),
                           ),
                         ],
@@ -86,11 +74,17 @@ class Home extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       //InputField Widget from the widgets folder
-                      InputField(label: "Email", content: "your@email.com", obscureText: false),
+                      InputField(
+                          label: "email",
+                          content: "your@email.com",
+                          obscureText: false),
                       SizedBox(height: 10.0),
 
                       //InputField Widget from the widgets folder
-                      InputField(label: "Username", content: "username", obscureText: false),
+                      InputField(
+                          label: "username",
+                          content: "username",
+                          obscureText: false),
 
                       SizedBox(height: 10.0),
 
@@ -103,28 +97,28 @@ class Home extends StatelessWidget {
                       SizedBox(height: 10.0),
 
                       //InputField Widget from the widgets folder
-                      InputField(label: "confirm password", content: "confirm password", obscureText: true),
+                      InputField(
+                          label: "confirm password",
+                          content: "confirm password",
+                          obscureText: true),
 
                       SizedBox(height: 50.0),
 
                       Row(
                         children: <Widget>[
-                          SizedBox(
-                            width: 170.0,
-                          ),
                           FlatButton(
-                            color: Colors.grey[200],
+                            color: Colors.white,
                             onPressed: () => print("cancel"),
                             child: Text("Cancel"),
                           ),
                           SizedBox(
                             width: 20.0,
                           ),
-                          FlatButton(
+                          RaisedButton(
                             color: Colors.blueAccent,
-                            onPressed: () => print("save"),
+                            onPressed: () => print("submit"),
                             child: Text(
-                              "Save",
+                              "Send",
                               style: TextStyle(color: Colors.white),
                             ),
                           ),

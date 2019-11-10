@@ -16,7 +16,7 @@ class InputField extends StatelessWidget {
             Container(
               width: 80.0,
               child: Text(
-                "$label",
+                "${this.label}",
                 textAlign: TextAlign.left,
               ),
             ),
@@ -24,7 +24,7 @@ class InputField extends StatelessWidget {
               width: 40.0,
             ),
             Container(
-              width: MediaQuery.of(context).size.width / 3.7,
+              width: MediaQuery.of(context).size.width / 4,
               color: Colors.blue[50],
               child: TextField(
                 obscureText: this.obscureText,
@@ -45,7 +45,7 @@ class InputField extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
-                  hintText: "$content",
+                  hintText: "${this.content}",
                   fillColor: Colors.blue[50],
                 ),
               ),
