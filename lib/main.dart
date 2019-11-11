@@ -5,7 +5,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
 
-  var title = "Flutter Login";
+  final title = "Flutter Login";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
